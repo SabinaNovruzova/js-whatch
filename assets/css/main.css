@@ -1,0 +1,59 @@
+body{
+    color: black;
+}
+.dark {
+    background-color: black;
+    color: white;
+  }
+  .change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.mode {
+    text-align: right;
+    padding: 20px;
+    padding-left: 100px;
+}
+nav .logo h1 {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none !important;
+    color: black ;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+nav .nav-list ul {
+    display: flex;
+}
+
+nav .nav-list ul li {
+    padding: 16px 22px;
+}
+
+nav .nav-list ul li a {
+    font-size: 18px;
+}
+i{
+    font-size: 30px;
+}
